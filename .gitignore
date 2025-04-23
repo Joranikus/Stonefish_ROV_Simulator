@@ -49,3 +49,39 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# ROS 2 colcon build artifacts
+build/
+install/
+log/
+
+# ROS 2 local setup files (optional, sometimes generated)
+local_setup.*
+
+# ROS 2 test results
+test_results/
+
+# VSCode / IDE settings (optional if you use Codespaces or VSCode)
+.vscode/
+.idea/
+
+# OS / Editor junk files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python cache (if your ROS packages use Python)
+__pycache__/
+*.pyc
+*.pyo
+
+# Colcon mixins (if you use them)
+.colcon/
+
+# CMake/colcon metadata
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
